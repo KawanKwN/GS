@@ -33,7 +33,7 @@ header {
 header .container {
     display: flex;
     align-items: center;
-    gap: 100px;
+    gap: 150px;
     
 }
 nav ul {
@@ -261,3 +261,5 @@ html {
   opacity: 0;
   pointer-events: none;
 }
+
+ 
