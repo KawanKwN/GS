@@ -58,4 +58,9 @@ function toogleMenu(){
       opcoes: ["A) Para evitar dados desatualizados", "B) Para mostrar comerciais", "C) Para previsão do tempo", "D) Para sorteios de emergência"],
       correta: 0
     },
+    {
+      pergunta: "10. Qual é o maior objetivo da HydroWacht?",
+      opcoes: ["A) Educar sobre geografia", "B) Ganhar seguidores", "C) Reduzir impactos de enchentes", "D) Substituir a Defesa Civil"],
+      correta: 2
+    }
     ];
