@@ -48,4 +48,9 @@ function toogleMenu(){
       opcoes: ["A) Transmitir notícias", "B) Conectar cidadãos, órgãos públicos e sensores", "C) Chamadas de vídeo", "D) Bloquear ruas automaticamente"],
       correta: 1
     },
+    {
+      pergunta: "8. O que os moradores podem fazer pelo app da HydroWacht?",
+      opcoes: ["A) Enviar relatórios e receber alertas", "B) Acessar jogos", "C) Comprar itens", "D) Marcar consultas"],
+      correta: 0
+    },
     ];
