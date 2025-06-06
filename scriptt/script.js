@@ -33,4 +33,9 @@ function toogleMenu(){
       opcoes: ["A) Medir a velocidade da internet", "B) Monitorar o nível da água em tempo real", "C) Transmitir imagens ao vivo", "D) Captar sons de sirenes"],
       correta: 1
       },
+      {
+      pergunta: "5. Em qual local é mais comum o impacto das enchentes no Brasil?",
+      opcoes: ["A) Regiões desérticas", "B) Áreas montanhosas", "C) Zonas urbanas com pouca drenagem", "D) Fazendas afastadas"],
+      correta: 2
+    },
     ];
