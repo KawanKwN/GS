@@ -1,0 +1,263 @@
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --text-color: #333;
+    --background-color: #f4f4f4;
+    --font-main: 'Poppins', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family: var(--font-main);
+    background-color: #f3f3f3;
+    color: #333;  
+}
+
+header {
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    background: transparent;
+    background-color: #333;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    
+}
+.logo {
+    width: 100px;
+}
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url('../assets/fundo-hero.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+nav ul li a:hover {
+    color: var(--secondary-color);
+    transition: 0.5s;
+}
+.subtitle {
+display: flex;
+    flex-direction: column;
+    text-align: left;
+    z-index: 1000;
+    margin-left: 30px;
+    margin-right: auto;
+
+}
+.subtitle h1 {
+    color: #e8c848;
+    font-size: 40px;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+    font-family: "Bebas Neue", sans-serif;;
+}
+.subtitle p {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 30px;
+    max-width: 800px;
+}
+.intro {
+   
+   
+    
+    text-align: center;
+    padding: 50px 20px;
+
+}
+.intro p {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    margin-bottom: 30px;
+    max-width: 800px;
+    text-align: justify;
+    margin-top: 10px;;
+}
+html {
+    scroll-behavior: smooth;
+}
+.intro h2 {
+    font-size: 35px;
+    color: #155bd7;
+}
+.line svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+
+}
+.intro img {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 30px auto;
+    display: block;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.content .text {
+    flex: 1;
+    padding: 20px;
+    max-width: 700px;
+    margin-left: 50px;
+}
+
+@media (max-width: 1024px) {
+  nav ul {
+    gap: 30px;
+  }
+
+  .intro img {
+    width: 100%;
+    margin: 20px auto;
+  }
+
+  .content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .content .text {
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  .subtitle {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .subtitle h1 {
+    font-size: 32px;
+  }
+
+  .subtitle p {
+    font-size: 20px;
+  }
+
+  .logo {
+    width: 80px;
+  }
+}
+@media (max-width: 768px) {
+  header .container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .intro p, .subtitle p {
+    font-size: 18px;
+  }
+
+  .intro h2, .subtitle h1 {
+    font-size: 26px;
+  }
+
+  .intro img {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .line svg {
+    height: 60px;
+  }
+}
+.hamburger {
+  display: none;
+  font-size: 28px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+    z-index: 1001;
+  }
+
+  nav {
+    display: none;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background: #333;
+    padding: 20px 0;
+    z-index: 1000;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  nav.active {
+    display: block;
+  }
+
+  header .container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.subtitle {
+  transition: opacity 0.3s ease;
+}
+
+.subtitle.oculta {
+  opacity: 0;
+  pointer-events: none;
+}
