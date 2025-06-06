@@ -270,3 +270,47 @@ footer {
     bottom: 0;
     width: 100%;
 }
+.quiz-container {
+      background: #1e1e1e;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 700px;
+      width: 100%;
+      box-shadow: 0 0 15px #000;
+    }
+
+    .question {
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+
+    .options {
+      list-style: none;
+      padding: 0;
+    }
+
+    .options li {
+      margin-bottom: 10px;
+    }
+
+    button {
+      padding: 10px 20px;
+      margin-top: 15px;
+      border: none;
+      border-radius: 5px;
+      background-color: #00b894;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #019875;
+    }
+
+    .result {
+      font-size: 22px;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 20px;
+    }
