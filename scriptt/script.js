@@ -33,13 +33,19 @@ function toogleMenu(){
       opcoes: ["A) Medir a velocidade da internet", "B) Monitorar o nível da água em tempo real", "C) Transmitir imagens ao vivo", "D) Captar sons de sirenes"],
       correta: 1
       },
-      {
+     {
       pergunta: "5. Em qual local é mais comum o impacto das enchentes no Brasil?",
       opcoes: ["A) Regiões desérticas", "B) Áreas montanhosas", "C) Zonas urbanas com pouca drenagem", "D) Fazendas afastadas"],
       correta: 2
-    {
+     },
+      {
       pergunta: "6. Por que os dados históricos são importantes no combate às enchentes?",
       opcoes: ["A) Para criar gráficos decorativos", "B) Para prever padrões de risco", "C) Para processos judiciais", "D) Para pesca"],
+      correta: 1
+    },
+    {
+      pergunta: "7. Qual é um dos principais diferenciais da HydroWacht?",
+      opcoes: ["A) Transmitir notícias", "B) Conectar cidadãos, órgãos públicos e sensores", "C) Chamadas de vídeo", "D) Bloquear ruas automaticamente"],
       correta: 1
     },
     ];
