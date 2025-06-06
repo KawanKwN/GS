@@ -37,8 +37,9 @@ function toogleMenu(){
       pergunta: "5. Em qual local é mais comum o impacto das enchentes no Brasil?",
       opcoes: ["A) Regiões desérticas", "B) Áreas montanhosas", "C) Zonas urbanas com pouca drenagem", "D) Fazendas afastadas"],
       correta: 2
-    },
+    {
       pergunta: "6. Por que os dados históricos são importantes no combate às enchentes?",
       opcoes: ["A) Para criar gráficos decorativos", "B) Para prever padrões de risco", "C) Para processos judiciais", "D) Para pesca"],
       correta: 1
+    },
     ];
