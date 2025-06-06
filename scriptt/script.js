@@ -28,4 +28,9 @@ function toogleMenu(){
       opcoes: ["A) Impressoras 3D", "B) Blockchain", "C) Sensores IoT e Inteligência Artificial", "D) Realidade Virtual"],
       correta: 2
     },
+    {
+      pergunta: "4. Qual é a principal função dos sensores IoT no projeto HydroWacht?",
+      opcoes: ["A) Medir a velocidade da internet", "B) Monitorar o nível da água em tempo real", "C) Transmitir imagens ao vivo", "D) Captar sons de sirenes"],
+      correta: 1
+      },
     ];
