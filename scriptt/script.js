@@ -53,4 +53,9 @@ function toogleMenu(){
       opcoes: ["A) Enviar relatórios e receber alertas", "B) Acessar jogos", "C) Comprar itens", "D) Marcar consultas"],
       correta: 0
     },
+    {
+      pergunta: "9. Por que é importante que o sistema da HydroWacht funcione em tempo real?",
+      opcoes: ["A) Para evitar dados desatualizados", "B) Para mostrar comerciais", "C) Para previsão do tempo", "D) Para sorteios de emergência"],
+      correta: 0
+    },
     ];
